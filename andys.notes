@@ -1,0 +1,87 @@
+230122 084018 | Finished the first version of this notetaking app
+230122 084104 | Copied Lancaster Virgin Money pics to the Photos drive, job ref 22957
+230122 121501 | Use #overtime tag to record any weekend work
+230122 142843 | #notes add option to add notes in batches, from a text file?
+230122 163340 | 23rd Jan #overtime 2hrs spent working on this note script
+240122 064558 | Install cron or suitable alternative #dietpi
+240122 064610 | Use a version control system? #dietpi
+240122 091809 | Added job 23089, po num 247942, mecca rochdale
+240122 093447 | Finishing off filtering the photos from the last few #lidl roof survey stores
+240122 112511 | 22 folders of #lidl photos prepped, each split into areas mentioned on original PO
+240122 130645 | 22936 Piggott - temporary coating applied, further works potentially? #engie
+240122 130725 | #engie clarity of initial visit - where's the issue, and precisely what needs doing
+240122 211240 | Upload all the zip files in the All/Zips/ folder #lidl
+240122 211300 | Initial data all drawn in, need to go over and fill in the gaps now #turnover
+240122 211336 | Make sure there are clear and sensible functions set up for the output text & markdown structure #turnover
+250122 070414 | Why do some photos sites get created as just postcode still? #turnover
+250122 135214 | Remove use of subprocess.run - replace with os. calls? #turnover
+250122 135235 | Improve file scanning - print incorrect columns if csv files nearly match? #turnover
+250122 135258 | Add some sort of folder cleanup.  Inevitable that it has to scan through and remove empty folders #turnover
+250122 135419 | Do we need an updated copy of the SOR? #engie
+250122 135434 | For each void site, initially decide some fixed photos to take, before and after, on top of all the rest #engie
+260122 084248 | Build in some way to mark notes as no longer needed, then they can be printed dark #notes
+270122 132837 | 22922 #engie dugdale, needs scaffold due to state of chimney, not something we'd know about until got up there
+270122 132948 | 22930 #engie french barn, roof looks in good condition, leak not happened since september, cleared 6m guttering by tenants request, and haunched chimney top
+270122 133430 | 22948 #engie cleared 7m gutter, requested by tenant, roof looked fine.
+270122 133638 | 22943 #engie requires scaffold, cannot access with truck without blocking road completely
+300122 090021 | Command options for os., so easier to list folders, remove empties, etc, without running subprocess.run #turnover
+310122 161116 | Check order things are done in folders work #turnover
+040222 075211 | Report sent for 22978 barclays pontefract #home
+040222 080352 | Changed note highlight colours to be more visible #home
+040222 084845 | Completed in january 22930 french barn lane, 22934 shawford rd, 22936 harry pigott, 22944 cheetham hill, 22948 stockdale rd #engie #home
+040222 085114 | Still to complete: 22946 dorking ave (scaffold issue?), 22943 symond rd, 22940 highview walk, 22939 viewfield walk, troydalr 22938, nevin rd 22933, 22929 ludgate rd, 22928 bloxham, ebsworth 22926, 22925 grimscott, 22924 ascot, 22923 alworth, 22922 dugdale #engie #home
+040222 085442 | Tags added to product report, and pulled into jobs data for further use #turnover in particular tracking scaffold, tower and truck usage
+040222 094813 | 22946 is scaffold issue - abusive tenant delayed scaffold #engie
+040222 094838 | 22943, 22926, 22925, 22924, 22923, 22922 are truck jobs #engie #home
+040222 094906 | 22939 and 22938 are solar panel jobs, awaiting rearrangement with northwards to survey #engie #home
+040222 094929 | 22940, 22933, 22929, 22928 are tower scaffold jobs #engie #home
+040222 095010 | Suggested varying rates adjustments for the #lcc void works.  Checked spec, no mention of specific suppliers #home
+040222 100245 | All remaining truck/tower jobs booked into 15th & 17th Feb, though the 15th ones may have to change, depending on engineer availability and reliability #engie #home
+040222 102512 | Photos filed for South Park Macclesfield 23128 #home
+040222 113254 | Changed to using txt2tags for #turnover reports - not quite as many options, but simple and sufficient.  It's just daily reports, don't want to be forever messing about with layout
+040222 113341 | Sent job report for Santander Kendal #home
+040222 113505 | Created quote for further works, and sent job report, for South Park Macclesfield mw23128 #home
+040222 123245 | Updated table formatting functions to return empty strings if empty strings passed, and cash function to surround negative values in brackets #turnover
+040222 144346 | Generated work reports, sorted relevant photos, and collated invoice totals for the 5 completed engie jobs from last month #engie #home
+040222 155216 | Added column headers etc for other table types to generate in #turnover reports
+050222 102136 | Tried splitting functions into separate file, didn't work easily.  Keeping as one for now #turnover #home
+050222 122337 | Added target variance to monthly and weekly reports, plus option to manually set annual target on commandline #turnover #home
+050222 160141 | Added quotes history report #turnover #home
+060222 103547 | Added recent orders table #turnover #home
+060222 103559 | Plan to build unassigned jobs in to orders table, needs work though, initial tjobs setup not quite right #turnover #home
+060222 121139 | Unassigned added, just by including native job status in tjobs list #home #turnover
+060222 121207 | #engie jobs completed recently need processing.  Reports generated, job codes identified, added to spreadsheet, photos separated out #todo #home
+060222 131631 | Recent orders table added, with unassigned orders listed, plus any with no appointment in next 4 weeks.  Includes list of tags.  txt2tags doesn't support multiline table cells :( #home #turnover any better markup language? #todo
+060222 170955 | Added missing info table, and split off a separate similar table for just residential customer jobs and/or quotes #home #turnover
+060222 171025 | Missing info table to improve - combine custref/po into one column #home #engie
+070222 093331 | Moved photos from weekend #home
+070222 093344 | Updated photos and jobs folders #home
+070222 093356 | Processed action required jobs from weekend - 2 residential surveys.  Both sent to quote, both with correct email addresses added #home
+070222 144739 | 22947, 22937 - completed early in february #engie #home
+070222 151739 | Updated January's completed #engie jobs on eworks with correct product codes and costs #home
+070222 155736 | Letter drops to arrange for relevant #engie drops #home #todo
+080222 083704 | Add column for number of engineers working to turnover dailies? Weeklies? #todo #turnover #home
+080222 170214 | Finish generating the pick list pdfs for the voids #engie #todo
+080222 170230 | Email Gareth Henderson re hanging stones farm survey #home #todo
+080222 170248 | Add job report generation, to be saved directly into the relevant job folder #turnover #home #todo
+090222 073659 | Kirkholt #engie #void check on details of the absestos lines
+090222 101143 | Added tests to ensure script won't try to run if the relevant sharepoint sites aren't mounted #turnover #home
+200222 150010 | Raspberry pi os 64 bit - randomly drops wifi signal, did it twice #linux #home
+200222 150042 | Arch linux arm 64bit - forums state installation currently needs to be done on a Pi4 first, then booted on Pi zero 2. Do later, if situation changes #linux #home
+200222 150123 | piCore - little bit too minimal #linux #home
+200222 150147 | raspberry pi os vs dietpi - they're both debian, and raspberry pi os is made for it #linux #home
+200222 150228 | Arch linux arm 32bit - but this does appear to be faster #linux #home
+200222 150244 | Gentoo - maybe one day? #linux #home
+200222 174233 | piCore #linux - life just a bit too short.  Prefer a distro that can be used for lots of stuff
+200222 174302 | Debian is preferable, but Arch appears to be bit faster #linux
+210222 172306 | New photosfolder function further forward, appointments organised and sorted, ready for folder changes to be processed #turnover
+210222 172342 | Job folders function to start, gathering folder info from onedrive, then comparing with current jobs, etc.  Using just os functions, not subprocess #turnover
+210222 172430 | Just charnwood SOR codes to clarify, and labour/material costs for all 4 new voids to update into eworks #engie
+230222 111914 | Added a 'file' option to the turnover script - reads through a folder and files away anything with an mwref in its filename #turnover
+230222 111950 | Also added a microsoft flow that scans my emails for any with mw in subject, and saves any attachments to the folder searched through by the turnover script, with that email subject added to the filename #turnover
+190422 145333 | 38 Carver St, leaking above glass facade to inspect #msc
+190422 145414 | Albion house saville st sheffield.  Investigate leak around down pipe and finish internals, pipe to connect, brickwork to point, coping joints to seal, seal around outlet, plaster and paint internals #msc
+190422 145502 | Truck in hours #msc #albion
+190422 145527 | Dearing House, Sheffield, price required to replace window seals/gaskets. #msc
+190422 145618 | Unit 19 Redbrook Business Park, Barnsley #msc
+260422 072004 | Mecca Chesterfield 23519 created, to be sub'd out to JSP
