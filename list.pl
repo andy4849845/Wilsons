@@ -44,6 +44,8 @@ for $i (1 .. 10) {
 # look at options passed
 my @vals=starter(join(' ',@ARGV));
 
+# where are we up to...?  (added to test magit)
+
 sub starter { # ongoing
     # pass this the command line arguments to be parsed
     my $args=$_[0];
