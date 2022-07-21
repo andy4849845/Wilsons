@@ -14,12 +14,10 @@ my $root=home();
 # set list filename
 my $file=catfile($root,'lists.data');
 
-# Hello?
-
 # first read in the data file, since we always need to, even if just to help
 # generate a new identifier
 # this command just reads the data line by line into the array
-# Since it's such a simple file format, should be manageable
+# Since it's such a simple file format, s
 my @listdata = path($file)->lines_utf8;
 # various data formats used
 my %internals;  # main internal data
@@ -99,6 +97,10 @@ sub reviewer {
     # subitems, etc.
 
     # this is automatically run after new items added or imported as well
+
+    # remember to purge the newlines array at the end of this, or bit
+    # by bit.  Either way it needs to be empty when this function
+    # returns
 }
 sub importer {
 }
@@ -140,8 +142,13 @@ sub parsedata {
 		}
 	    } else {
 		# if no label found, then create one
-		# but with a question mark on end of it, since may be further info item?
+		
+		# but with a question mark on end of it, since may be
+		# further info item?
 		$label=labelgen(1);
+		# also add to the @newlines list, with this label, to
+		# be processed by the reviewer() routine
+		push (@newlines, $itemline.' '.$label);
 	    }
 	    # find hashtags in the item line
 	    my @tags = findhash($itemline);
