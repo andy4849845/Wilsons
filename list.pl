@@ -14,6 +14,8 @@ my $root=home();
 # set list filename
 my $file=catfile($root,'lists.data');
 
+# Hello?
+
 # first read in the data file, since we always need to, even if just to help
 # generate a new identifier
 # this command just reads the data line by line into the array
