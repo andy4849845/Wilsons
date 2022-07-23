@@ -1,2 +1,2 @@
-# Wilsons
-Python and shell scripts used for Wilsons Work
+# Scripts
+Python and shell scripts used for Wilsons work
