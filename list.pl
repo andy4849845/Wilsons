@@ -28,6 +28,8 @@ my @az=("a" .. "z","A" .. "Z",0 .. 9); # letter list used to generate item label
 
 parsedata(); # should take the file(s) read in, and convert into internal data format
 
+# quick test comment
+
 # experimental loop
 my $i;
 my $j;
