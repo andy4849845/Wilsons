@@ -721,20 +721,20 @@ def emailer(to, subject, body, attach):
     # sends multiformat message, html part optional
     # attach is a list of the form [name, body], [name, body], ...
 
-    email = 'andy.swallow@michaelwilsonandson.co.uk'
-    password = 'Rosie.01.12.21'
-    #email='admin@michaelwilsonandson.co.uk'
+    email = 'andywilsons@gmx.co.uk'
+    password = 'Awlp.1290'
     cc='andy.swallow@michaelwilsonandson.co.uk'
-    #password='Myson001ADM'
 
     emailmessage=MIMEMultipart('alternative')
 
-    server=smtplib.SMTP('smtp.office365.com', 587)
+    #server=smtplib.SMTP('smtp.office365.com', 587)
+    server=smtplib.SMTP('mail.gmx.com', 587)
     server.starttls() # Use TLS
     server.login(email, password) # Login to the email server
 
     emailmessage['Subject'] = subject
-    emailmessage['From'] = formataddr(('Michael Wilson & Son', 'admin@michaelwilsonandson.co.uk'))
+    #emailmessage['From'] = formataddr(('Michael Wilson & Son', 'admin@michaelwilsonandson.co.uk'))
+    emailmessage['From'] = formataddr(('Jez', 'andywilsons@gmx.co.uk'))
     emailmessage['To'] = to
 
     emailmessage.attach(MIMEText(body, 'html', 'utf-8')) # main body of email
